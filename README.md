@@ -37,7 +37,8 @@ Here's a quick rundown of the demo credentials:
 Header of the page.
 ```php
   require( "Authentication.php" );
-    
+  if ( session_status() === PHP_SESSION_NONE ){ session_start(); }
+  
   if( isset( $_SESSION['AuthHandler'] ) ){
     
     $AuthHandler = unserialize( $_SESSION['AuthHandler'] );
