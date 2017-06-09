@@ -15,6 +15,7 @@ To use the demo system, you must use the provided demo credentials available on 
 
 # Demo Credentials
 Here's a quick rundown of the demo credentials:
+
 | Certificate | Password    | Network Rating        |
 |-------------|-------------| ----------------------|
 | 1299999     | 1299999     | Inactive (-1)         |
