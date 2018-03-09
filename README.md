@@ -1,5 +1,8 @@
 # VATSIM Single Sign On
 
+### Current stable version: Version 2.0
+Download on [the releases section](https://www.github.com/KiloSierraCharlie/VATSIM-SSO/releases) of GitHub. Feel free to use the non-release, version on the Git, but beware it might not be too stable.
+
 A simple, object-orientated sign-on class for the VATSIM network. If you're new starting out with VATSIM's Single Sign On system, or need to easily embed SSO into your already written application, this class should work perfectly for you.
 
 # Configuration
