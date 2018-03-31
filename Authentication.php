@@ -54,6 +54,14 @@ EOD;
       session_start();
     }
     
+    if( isset( $_SESSION['AuthHandler'] ) ){
+    
+      $StoredHandler = unserialize( $_SESSION['AuthHandler'] );
+      $this->User = $StoredHandler->getUserDetails();
+      $this->loggedIn = $StoredHandler->isLoggedIn();
+      
+    }
+    
     $this->SSO = new SSO( $this->Base, $this->Key, $this->Secret, $this->Method, $this->Cert );
     
   }
