@@ -1,6 +1,6 @@
 # VATSIM Single Sign On
 
-### Current stable version: Version 2.0
+### Current stable version: Version 2.1
 Download on [the releases section](https://www.github.com/KiloSierraCharlie/VATSIM-SSO/releases) of GitHub. Feel free to use the non-release, version on the Git, but beware it might not be too stable.
 
 
